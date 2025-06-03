@@ -3,6 +3,7 @@ import './App.css';
 import './styles.css';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
       <div className="container">
         <Header></Header>
       </div>
-      <footer className="footer">
-        <p>&copy; 2025 Moviedux. All rights reserved.</p>
-      </footer>
+       <Footer></Footer>
     </div>
   );
 }
