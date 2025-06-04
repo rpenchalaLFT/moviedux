@@ -4,6 +4,7 @@ import './styles.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import MovieGrid from './components/MovieGrid';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <div className="container">
         <Header></Header>
       </div>
+      <div>
+        <MovieGrid />
+      </div>  
        <Footer></Footer>
     </div>
   );
